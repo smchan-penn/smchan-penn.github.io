@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+   background-color: #F8EEE5;
+   color: #6B2138;
+   font-family: "Liter", serif;
+   font-size: 20px;
+   font-weight: 400;
+   font-style: normal;
+   text-align: center;
+   justify-items: center;
+   align-items:center;
+   padding:20%;
+   float:center;
+}
+
+.wait-text {
+    animation: fadeInOut 3s ease-in-out forwards;
+}
+
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    50% { opacity: 1; }
+    80% { opacity: 0; }
+    100% { opacity: 0; }
+  }
+
+.flappy{
+    animation: slideInOut 8s ease-in-out forwards;
+}
+
+@keyframes slideInOut {
+    0%{transform: translate(-1000%,0%);}
+    20%{transform: translate(0%,0%);}
+    50%{transform: translate(0%,0%);}
+    80%{transform: translate(0%,0%);}
+    100%{transform: translate(1000%,0%);}
+  }
+
+.speech-text {
+    animation: again 10s ease-in-out forwards;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-size: 15px;
+}
+
+@keyframes again {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    25% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 1; }
+  }
+
+.back-button {
+    width: auto;
+    height: 25px;
+    background-color: #6B2138;
+    border-radius: 10px;
+    padding:10px;
+    animation: again 10s ease-in-out forwards;
+}
+
+.back-button::before {
+    content: "back";
+    color:#F8EEE5;
+}
+
+.back-button:hover {
+    content:"back";
+    background-color: #FC4D16;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
