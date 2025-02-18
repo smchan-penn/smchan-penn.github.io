@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Liter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+   background-color: #D1C360;
+   color: #6B2138;
+   font-family: "Liter", serif;
+   font-size: 20px;
+   font-weight: 400;
+   font-style: normal;
+    padding:10%;
+   text-align: center;
+   justify-items: center;
+   align-items:center;
+}
+
+section {
+  position: center;
+}
+
+#styledtable {
+    border-collapse: collapse;
+  }
+
+#styledtable td {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.doug {
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top:30%;
+    text-align: center;
+    justify-items: center;
+    align-items:center;
+}
+
+.doug:hover {
+    transform: rotateY(180deg);
+}
+
+.speech-text {
+    animation: again 10s ease-in-out forwards;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.speech {
+    animation: again 10s ease-in-out forwards;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-size: 10px;
+}
+
+.button {
+    width: auto;
+    height: 25px;
+    background-color: #6B2138;
+    border-radius: 10px;
+    padding:10px;
+    animation: fadein 10s ease-in-out forwards;
+}
+
+.button::before {
+    content: "FIGHT";
+    color:#D1C360;
+}
+
+.button:hover {
+    content:"FIGHT";
+    background-color: #FC4D16;
+}
