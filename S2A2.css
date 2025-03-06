@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items:center;
+    box-sizing: border-box;
+    padding:10%;
+    background-color: #FCFBF9;
+}
+
+.header {
+    color: #AC1920;
+    font-family: "Bricolage Grotesque";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0;
+}
+
+.subtitle {
+    color: #AC1920;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 0% 12%;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.image {
+    width:200px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    width:215px;
+    transform: translateY(-10px);
+    opacity:80%;
+}
+
+.popup-image {
+    width:70vw;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup-close {
+
+}
+
+.popup {
+    position:relative;
+    align-items: center;
+    justify-items: center;
+    background: rgba(77,77,77,0.7)
+    transition: all 0.4s;
+    visibility:hidden;
+    opacity: 0;
+}
+
+.popup:target {
+    visibility:visible;
+    opacity: 1;
+}
+
+.popup-close {
+    padding:10px;
+    background-color: #AC1920;
+    text-decoration: none;
+    color:white;
+    font-family: Poppins;
+    border-radius: 10px;
+}
+
+#gilda-popup {
+    position:absolute;
+    justify-items: center;
+    align-items:center;
+}
+
+#lutecia-popup {
+    position:absolute;
+    justify-items: center;
+    align-items:center;
+}
+
+#bluestone-popup {
+    position:absolute;
+    justify-items: center;
+    align-items:center;
+}
+
+#babys-popup {
+    position:absolute;
+    justify-items: center;
+    align-items:center;
+}
+
+#dutch-popup {
+    position:absolute;
+    justify-items: center;
+    align-items:center;
+}
+
+#renatas-popup {
+    position:absolute;
+    justify-items: center;
+    align-items:center;
+}
