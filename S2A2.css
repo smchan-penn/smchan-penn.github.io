@@ -66,9 +66,9 @@ body {
     align-items: center;
     justify-items: center;
     background: rgba(77,77,77,0.7)
-    transition: all 0.4s;
+    transition:all 0.4s;
     visibility:hidden;
-    opacity: 0;
+    opacity:0;
 }
 
 .popup:target {
