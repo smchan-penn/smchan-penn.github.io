@@ -82,12 +82,12 @@ body {
 .mockup{
     position: relative;
     height: auto;
-    width: 3vw;
+    width: 60vw;
     transition: transform 0.3s ease;
 }
 
 .mockup:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .header1 {
