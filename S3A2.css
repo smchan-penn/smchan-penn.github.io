@@ -6,6 +6,7 @@ body {
     justify-items: center;
     align-items:center;
 }
+
 .section1{
     background-color: #white;
     width:110%;
@@ -42,6 +43,8 @@ body {
       transform: translateX(0);
     }
 }
+
+
 
 .middle p {
     opacity: 0;
