@@ -11,7 +11,7 @@ body {
     width:110%;
     height:fit-content;
     position:relative;
-    padding:10%;
+    padding:10% 10% 0% 10%;
 }
 
 .vanpelt{
@@ -29,6 +29,7 @@ body {
     align-items: center;
     justify-content: center;
     animation: slideInFromLeft 1s ease-out forwards;
+    padding:5% 10% 10% 10%;
 }
 
 @keyframes slideInFromLeft {
